@@ -142,6 +142,23 @@ Even though ComposeEntity generates a lot of code for you, nothing is hidden:
 > ComposeEntity automates the boring parts,  
 > but leaves **you in control of everything that matters**.
 
+
+---
+## 🧪 Try It Out: Sample Projects
+
+To get started quickly, you can clone one of the ready-to-run demo projects:
+
+- 🧱 **Basic Starter Template**  
+  Minimal example with one entity and auto-generated form:  
+  👉 [ComposeEntitySample](https://github.com/SergeyBoboshko/ComposeEntitySample)
+
+- 📚 **Full-Scale Example: Utility Payment Book**  
+  A complete app that demonstrates a real-world use case with many directories, documents, registers, reports and dozens of tables:  
+  👉 [CePowerPaymentBook](https://github.com/SergeyBoboshko/CePowerPaymentBook)
+
+These projects show how ComposeEntity handles everything from simple CRUD to complex UI and navigation.
+
+
 ---
 
 ## 📜 License
