@@ -8,13 +8,12 @@
 
 ## ✨ Why Use ComposeEntity?
 
-- ✅ Define only your entities — the forms and ViewModels are generated automatically
-- ✅ Works entirely offline with **SQLite**
-- ✅ No XML, no manual migration logic
-- ✅ Auto-forms with CRUD, navigation, and reports
-- ✅ Extensible with custom UI
-- ✅ Fully free and open for use
-
+- ✅ Define only your entities — the forms and ViewModels are generated automatically  
+- ✅ Works entirely offline with **SQLite**  
+- ✅ No XML, no manual migration logic  
+- ✅ Auto-forms with CRUD, navigation, and reports  
+- ✅ Extensible with custom UI  
+- ✅ Fully free and open for use  
 
 **ComposeEntity** is a Kotlin-based library that automatically generates database logic and UI forms for Android apps using **Jetpack Compose** and **Room**.
 
@@ -58,13 +57,12 @@ No Firebase, no cloud backend — just Android Studio + Kotlin.
 
 ## 🧰 Requirements
 
-- Android Studio Giraffe or newer
-- Kotlin 1.9+
-- Jetpack Compose
-- No backend or internet connection needed
+- Android Studio Giraffe or newer  
+- Kotlin 1.9+  
+- Jetpack Compose  
+- No backend or internet connection needed  
 
-Create your entities, and Compose Entity will handle everything. Just to compare the volume of code and result. We create appication with one reference anf full CRUD operation:
-
+Create your entities, and ComposeEntity will handle everything. Just to compare the volume of code and result. We create application with one reference and full CRUD operation:
 
 ```kotlin
 @ObjectGeneratorCE(type = GeneratorType.Reference
@@ -78,28 +76,74 @@ data class RefMeterZones(
     override var name: String,
     override var isMarkedForDeletion: Boolean
 
-): CommonReferenceEntity(id,date,name,isMarkedForDeletion), Parcelable{
+): CommonReferenceEntity(id, date, name, isMarkedForDeletion), Parcelable {
     override fun toString(): String {
         return "$id: $name"
     }
 }
 ```
 
-![image](https://github.com/user-attachments/assets/38aac061-1180-4841-87d1-09ef9cfb65a8)
+![image](https://github.com/user-attachments/assets/38aac061-1180-4841-87d1-09ef9cfb65a8)  
 ![image](https://github.com/user-attachments/assets/6bbd9e59-dd71-4b48-8dd8-7db3e3f22908)
 
-And result of this code example on pictures. The fields id and name are presenting on the form by standart way for all of references:
+The fields `id` and `name` are presented on the form in a standard way for all references.
 
-CE_Example 1 CE_Example 2
+---
 
-Run the Project 🚀
+## ▶️ Run the Project
+
 Your UI and database are automatically generated, and you can start using the app immediately.
 
-📝 Customization
-You can extend the default setup by:
+---
 
-Adding custom UI elements using customComposable.
-Modifying form layouts for better UX.
-Implementing custom save logic within ViewModels.
-📜 License
-This project is licensed under the MIT License.
+## 📝 Customization
+
+You can extend the default setup by:
+- Adding **custom UI elements** using `customComposable`
+- Modifying **form layouts** for better UX
+- Implementing **custom save logic** within ViewModels
+
+---
+
+## 🧠 Full Control When You Need It
+
+One of the biggest concerns developers have when adopting any framework is:
+
+> **“Will I lose control over my code?”**
+
+With **ComposeEntity**, the answer is:  
+**No — you keep full control. Always.**
+
+### 🔧 You Can Choose What Gets Generated
+
+ComposeEntity lets you selectively enable or disable:
+- UI generation
+- ViewModel generation
+- Repository generation
+
+If needed, you can even:
+- Copy the generated code (from `build/generated/...`) into your project
+- Customize or completely rewrite any part
+
+### 🎯 Fine-Grained Customization
+
+You can:
+- Inject custom Composables into any form
+- Override field rendering, layout, or input behavior
+- Intercept lifecycle events like `onSave`, `onDelete`, or `onFieldChange` via the ViewModel
+
+### ✅ You Are Always In Charge
+
+Even though ComposeEntity generates a lot of code for you, nothing is hidden:
+- All generated code is readable and well-structured
+- You can explore, copy, and modify it anytime
+- ComposeEntity respects your overrides — if you define a ViewModel, it won’t generate one
+
+> ComposeEntity automates the boring parts,  
+> but leaves **you in control of everything that matters**.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
