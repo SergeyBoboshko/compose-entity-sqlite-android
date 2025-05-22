@@ -65,7 +65,7 @@ No Firebase, no cloud backend — just Android Studio + Kotlin.
 
 Create your entities, and Compose Entity will handle everything. Just to compare the volume of code and result. We create appication with one reference anf full CRUD operation:
 
-'''Kotlin
+```Kotlin
 @ObjectGeneratorCE(type = GeneratorType.Reference
     , label = "The Meter Zones")
 @Parcelize
