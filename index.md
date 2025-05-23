@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: ComposeEntity Documentation  Home 
 nav_order: 1
 ---
 
