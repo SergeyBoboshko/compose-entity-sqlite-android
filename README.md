@@ -1,4 +1,4 @@
-# CE (ComposeEntity): The Easiest Way to Build Android Apps with SQLite Forms 
+# CE (ComposeEntity): The Easiest Way to Build Android Apps with SQLite Forms !
 <table>
     <tr>
         <td><img src="https://github.com/user-attachments/assets/48b44bd1-de84-4468-9d30-d7423867dec0"/></td>
