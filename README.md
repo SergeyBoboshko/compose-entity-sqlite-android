@@ -1,6 +1,11 @@
-# ComposeEntity: The Easiest Way to Build Android Apps with SQLite Forms
+# CE (ComposeEntity): The Easiest Way to Build Android Apps with SQLite Forms 
+<table>
+    <tr>
+        <td><img src="https://github.com/user-attachments/assets/48b44bd1-de84-4468-9d30-d7423867dec0"/></td>
+        <td><b>CE ComposeEntity</b> is a free Kotlin library for Android that lets you build full-featured apps with **SQLite**, dozens of tables, and auto-generated forms — with almost no boilerplate.</td>
+    </tr>
+</table>
 
-**ComposeEntity** is a free Kotlin library for Android that lets you build full-featured apps with **SQLite**, dozens of tables, and auto-generated forms — with almost no boilerplate.
 
 🚀 **Perfect for indie developers and small teams**: all you need is **Android Studio** + **Kotlin** — no Firebase, no backend, no monthly fees.
 
