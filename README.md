@@ -157,8 +157,12 @@ To get started quickly, you can clone one of the ready-to-run demo projects:
   👉 [CePowerPaymentBook](https://github.com/SergeyBoboshko/CePowerPaymentBook)
 
 These projects show how ComposeEntity handles everything from simple CRUD to complex UI and navigation.
-
-
+---
+## More Examples And Tutorials About ComposeEntity and ComposeEntity KSP
+[Compose Entity KSP Manual Pages] (https://wool-fontina-39f.notion.site/Compose-Entity-KSP-1bbac9e714318004866fd9fd627a25e1)
+[Compose Entity KSP my Blog] (https://www.homeclub.top/?cat=51)
+[Compose Entity my Blog] (https://www.homeclub.top/?cat=50) 
+[ComposeEntity and ComposeEntity KSP Youtube Project] (https://www.youtube.com/@ComposeEntity)
 ---
 
 ## 📜 License
