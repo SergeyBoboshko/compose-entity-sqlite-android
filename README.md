@@ -175,6 +175,8 @@ These projects show how ComposeEntity handles everything from simple CRUD to com
 
 ---
 
+[Check out this video on this topic](https://youtu.be/SY90XoTxYuQ)
+
 ## 📜 License
 
 This project is licensed under the **MIT License**.
