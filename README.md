@@ -30,6 +30,10 @@ With just your entity classes, you can get:
 No XML. No manual DAO. No hand-coded ViewModel logic.  
 Just define your data model — ComposeEntity does the rest.
 
+> ❓ Hesitant to start with Compose Entity? You're not alone. Many developers are cautious about code-generation tools because of the fear of black boxes or losing control.  
+> [Why Compose Entity is different — and why you don’t need to be afraid](./whynoafraid.md)
+
+
 ---
 
 ## ⚡ Who Is It For?
