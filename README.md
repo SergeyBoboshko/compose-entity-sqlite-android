@@ -178,6 +178,8 @@ These projects show how ComposeEntity handles everything from simple CRUD to com
 - [ComposeEntity and ComposeEntity KSP Youtube Project](https://www.youtube.com/@ComposeEntity)
 
 ---
+## [Local Manuals](/local-manuals.md)
+---
 
 [Check out this video on this topic](https://youtu.be/SY90XoTxYuQ)
 
