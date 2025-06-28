@@ -32,7 +32,7 @@ ComposeEntity is built around five primary types of objects:
 
 ComposeEntity handles **all the routine tasks** that developers usually do manually:
 
-- 📂 Automatically builds the entire database (no need to write Room code)
+- 📂 Automatically builds the entire SQLite database (no need to write Room code)
 - 🔁 Manages database migrations (automatically or with warnings)
 - 🌐 Generates the full stack:
   `DAO → Repository → ViewModel → UI`  
