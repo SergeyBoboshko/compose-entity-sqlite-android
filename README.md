@@ -169,9 +169,9 @@ These projects show how ComposeEntity handles everything from simple CRUD to com
 
 ---
 
-    - [What's new in Compose Entity (KSP)](https://www.homeclub.top/?p=1115)
+- [What's new in Compose Entity (KSP)](https://www.homeclub.top/?p=1115)
     
-    - [What newest version of Compose Entity is?](https://www.homeclub.top/?p=1036)
+- [What newest version of Compose Entity is?](https://www.homeclub.top/?p=1036)
     
 ---
 
