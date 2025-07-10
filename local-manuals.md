@@ -6,5 +6,5 @@
 - [ComposeEntity — Structure and Philosophy](/articles/composeentity-architecture-overview.md)
 - [Initial Database Seeding & Custom Localization in ComposeEntity | Jetpack Compose + KSP (Video on Youtube)](https://youtu.be/g5vgDVzykOE)
 - [Base Compose Entity Infrastructure](/articles/ce-infrastructure.md)
-  
+- [Compose Entity Functions Reference](/func_tips.md)
 ---
