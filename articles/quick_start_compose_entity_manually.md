@@ -126,5 +126,5 @@ Below are screenshots comparing the released sample and your new project layout.
 
 <img width="1024" height="729" alt="image" src="https://github.com/user-attachments/assets/2ea078c2-d25c-4b07-9e21-c50ee1679d5c" />
 
-
+[See Videosample on Youtube](https://youtu.be/mlx5KvPJyQw)
 
