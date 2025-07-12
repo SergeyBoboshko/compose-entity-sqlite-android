@@ -8,4 +8,5 @@
 - [Base Compose Entity Infrastructure](/articles/ce-infrastructure.md)
 - [Compose Entity Functions Reference](/articles/func_tips.md)
 - [Quick Start Manually](/articles/quick_start_compose_entity_manually.md)
+- [Quick Start Automaticly by web-project-generator](/articles/ce_project_generator.md)
 ---
