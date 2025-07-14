@@ -18,3 +18,5 @@ Generated projects include:
 - Correct package structure and naming
 
 No account or registration required.
+
+https://youtu.be/OuOw53IQSaM
