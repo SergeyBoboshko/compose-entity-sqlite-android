@@ -135,6 +135,8 @@ Let's estimate approximately how many lines of code would be required to impleme
 | **Total**                 | **~4300–4500**  |
 
 ---
+But our estimated total of 4500 lines of code is a very optimistic assessment. In real life, it is often much more. For example, my Addresses table with utility services in detailed records took almost 3000 lines of code, including the entire chain from entity to UI/UX
+---
 
 ### Problems with manual implementation:
 
