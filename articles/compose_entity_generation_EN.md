@@ -242,4 +242,9 @@ Actually, there is a lot of useful stuff, and answers exist for all these questi
 
 ### Can I take the automatically generated code and extend it manually?
 
-Yes, you can take the generated code from the `generated` directory, copy it to your own `.kt` file, and extend it there. You must change the generation level in the annotation to match the copied object's level. Also, copy all dependent objects that come after in the list. For example,
+Yes, you can take the code from the file in the `generated` directory, copy it into your own `.kt` file, and modify it there.  
+In this case, you need to change the generation level to the level of the object you copied.  
+Also, you must copy all objects that are lower in the hierarchy.  
+For example, if you want to rewrite the `viewModel`, then in the `@CeGenerator(...)` annotation, set `generationLevel = GenerationLevel.Repository`.  
+This way, everything up to the repository will be generated, and the `viewModel` and UI will remain as you copied and customized them.
+
