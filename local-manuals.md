@@ -8,6 +8,7 @@
 - [Quick Start Automaticly by web-project-generator](/articles/ce_project_generator.md)
 - [What's new, changelog](/articles/changelog.md)
 - [How and what objects CE generates with example](/articles/compose_entity_generation_EN.md)
+- [Standard Objects Manual Pages](/articles/standard_objects/index.md)
 
 ## The Little bit of usefull propaganda
 
