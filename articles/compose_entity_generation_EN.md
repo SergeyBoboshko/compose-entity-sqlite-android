@@ -125,7 +125,7 @@ Let's estimate approximately how many lines of code would be required to impleme
 |---------------------------|-----------------|
 | Entity                    | 10 x 30 = 300   |
 | DAO                       | 10 x 40 = 400   |
-| ViewModel                 | 10 x 60 = 600   |
+| [ViewModel](standard_objects/ViewModelReference.md)                 | 10 x 60 = 600   |
 | Repository                | 10 x 50 = 500   |
 | UI – lists                | 10 x 80 = 800   |
 | UI – forms                | 10 x 100 = 1000 |
@@ -155,7 +155,7 @@ The same 10 tables are described in about 10–20 lines each (total approx. 150�
 
 - Room entities  
 - DAO  
-- ViewModel  
+- [ViewModel](standard_objects/ViewModelReference.md)  
 - Repository  
 - UI list and form  
 - Document posting logic  
@@ -214,10 +214,10 @@ CE generates service classes for this entity:
 - RefProductsExt  
 - RefProductsDao  
 - RefProductsRepository  
-- RefProductsViewModel  
+- RefProducts[ViewModel](standard_objects/ViewModelReference.md)  
 - RefProductsUI  
 
-You can always get a ViewModel instance from the special global object `AppGlobalCE`. For example, in this case it is `AppGlobalCE.refProductsViewModel`. You can also easily access the DAO object via `AppGlobalCE.refProductsViewModel.repository.dao`. If you create a UI object, it already has a `viewModel` property pointing to the same ViewModel as `AppGlobalCE`: `RefProductsUI().viewModel.repository.dao` — access whatever you want!
+You can always get a [ViewModel](standard_objects/ViewModelReference.md) instance from the special global object `AppGlobalCE`. For example, in this case it is `AppGlobalCE.refProductsViewModel`. You can also easily access the DAO object via `AppGlobalCE.refProductsViewModel.repository.dao`. If you create a UI object, it already has a `viewModel` property pointing to the same [ViewModel](standard_objects/ViewModelReference.md) as `AppGlobalCE`: `RefProductsUI().viewModel.repository.dao` — access whatever you want!
 
 ---
 
