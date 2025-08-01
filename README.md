@@ -159,9 +159,11 @@ Even though ComposeEntity generates a lot of code for you, nothing is hidden:
 
 To get started quickly, you can clone one of the ready-to-run demo projects:
 
-- 🧱 **Basic Starter Template**  
-  Minimal example with one entity and auto-generated form:  
-  👉 [ComposeEntitySample](https://github.com/SergeyBoboshko/ComposeEntitySample)
+- 🧱 **Basic Starter Template**
+  👉 [Create starter project with your package and folders structure for Android Studio](https://cetempl.homeclub.top/)
+
+- Minimal example with one entity and auto-generated form:  
+  👉 [See and Download ComposeEntitySample](https://github.com/SergeyBoboshko/ComposeEntitySample)
 
 - 📚 **Full-Scale Example: Utility Payment Book**  
   A complete app that demonstrates a real-world use case with many directories, documents, registers, reports and dozens of tables:  
