@@ -1,4 +1,4 @@
-# Version 1.0.29 - Added
+# Version 1.0.29 - Added (01.08.2025)
 
 In @CeGenerator annotation:
 
