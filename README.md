@@ -10,7 +10,7 @@
 🚀 **Perfect for indie developers and small teams**: all you need is **Android Studio** + **Kotlin** — no Firebase, no backend, no monthly fees.
 
 ---
-[We are strongly recomending creating THE NEW PROJECT with compose entity by this page](https://cetempl.homeclub.top/)
+[We are strongly recomending creating THE NEW PROJECT with compose entity by this page->](https://cetempl.homeclub.top/)
 ---
 
 ## ✨ Why Use ComposeEntity?
