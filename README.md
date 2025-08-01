@@ -159,7 +159,7 @@ Even though ComposeEntity generates a lot of code for you, nothing is hidden:
 
 To get started quickly, you can clone one of the ready-to-run demo projects:
 
-- 🧱 **Basic Starter Template**
+- 🧱 **Basic Starter Template**  
   👉 [Create starter project with your package and folders structure for Android Studio](https://cetempl.homeclub.top/)
 
 - Minimal example with one entity and auto-generated form:  
