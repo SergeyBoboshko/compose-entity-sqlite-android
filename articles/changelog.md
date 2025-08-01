@@ -1,3 +1,12 @@
+# Version 1.0.29 - Added
+
+In @CeGenerator annotation:
+
+- Ability to disable the default form caption via the renderCaption boolean flag. When disabled, the standard title/header of the form will not be rendered.
+- New overrideable composableTopForm property:  
+  Allows injecting a custom @Composable (BaseUI, _BaseFormVM, Form?, String) -> Unit at the top of the form.
+  This feature is intended to provide full flexibility for form headers and should be used in place of the default caption.
+
 # Version 1.0.27 – Breaking annotation renaming (16.07.2025)
 
 ## ⚠️ Breaking Changes
