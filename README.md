@@ -1,6 +1,6 @@
 # CE (ComposeEntity): The Easiest Way to Build Android Apps with SQLite Forms !
 
-> ⚡ **New Major Version Available — Compose Entity 2.0.0-beta.1**  
+> ⚡ **New Major Version Available — Compose Entity 2.0.0-beta.2**  
 > This is our biggest update yet!  
 > - **No more Room or Hilt** — the library is now lighter and faster.  
 > - Full control over your database.  
