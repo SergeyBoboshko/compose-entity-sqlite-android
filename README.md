@@ -1,11 +1,28 @@
 # CE (ComposeEntity): The Easiest Way to Build Android Apps with SQLite Forms !
+
+> ⚡ **New Major Version Available — Compose Entity 2.0.0-beta.1**  
+> This is our biggest update yet!  
+> - **No more Room or Hilt** — the library is now lighter and faster.  
+> - Full control over your database.  
+> - Less strict Entity-to-DB bindings — no more unexpected errors.  
+> - Much faster compilation, database queries, and form rendering.  
+> - Mix ComposeEntity elements with any fully custom UI components.  
+>
+> 📖 **Manuals for v2 are coming soon** — meanwhile, you can still use the [existing guides](#more-examples-and-tutorials-about-composeentity-and-composeentity-ksp) (they work for most concepts) and check the future v2 folder once it’s available:  
+> [`/v2`](./v2)  
+>
+>- [How to add the version 2 dependency to your project in build.gradle.kts](https://www.homeclub.top/?p=1036)  
+> 📝 New version introduces its own annotations instead of Room ones — they will be documented in the upcoming v2 manual.  
+> Old code using Room annotations still works the same.
+
+---
+
 <table>
     <tr>
         <td><img src="https://github.com/user-attachments/assets/48b44bd1-de84-4468-9d30-d7423867dec0"/></td>
         <td><b>CE ComposeEntity</b> is a free Kotlin library for Android that lets you build full-featured apps with **SQLite**, dozens of tables, and auto-generated forms — with almost no boilerplate.</td>
     </tr>
 </table>
-
 
 🚀 **Perfect for indie developers and small teams**: all you need is **Android Studio** + **Kotlin** — no Firebase, no backend, no monthly fees.
 
@@ -34,7 +51,6 @@ Just define your data model — ComposeEntity does the rest.
 
 > ❓ Hesitant to start with Compose Entity? You're not alone. Many developers are cautious about code-generation tools because of the fear of black boxes or losing control.  
 > [Why Compose Entity is different — and why you don’t need to be afraid](./whynoafraid.md)
-
 
 ---
 
@@ -152,7 +168,6 @@ Even though ComposeEntity generates a lot of code for you, nothing is hidden:
 
 > ComposeEntity automates the boring parts,  
 > but leaves **you in control of everything that matters**.
-
 
 ---
 ## 🧪 Try It Out: Sample Projects
