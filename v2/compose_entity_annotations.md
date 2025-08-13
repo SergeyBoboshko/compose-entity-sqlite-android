@@ -80,3 +80,9 @@ data class RefGroupes(
 Version 2 requires **at least one table** in the database created using Compose Entity annotations.  
 That’s why the example already includes reference tables.  
 In future releases, this limitation will be removed, though Compose Entity is designed primarily for applications working with databases.
+
+---
+
+**Another annotations work exactly like was in version 1**
+
+[Click here for review](https://wool-fontina-39f.notion.site/Compose-Entity-KSP-1bbac9e714318004866fd9fd627a25e1)
