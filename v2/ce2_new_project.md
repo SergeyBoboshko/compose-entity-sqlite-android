@@ -1,4 +1,4 @@
-## 🚀 [Create a Compose Entity Project](https://cetempl.homeclub.top/)
+## 🚀 [Create a Compose Entity Project ↗️](https://cetempl.homeclub.top/)
 
 No more starting **from scratch** in Android Studio when there’s no ready-made template for your app idea.  
 With this online generator, you can create a **fully working Android Studio project** in just a few clicks.
