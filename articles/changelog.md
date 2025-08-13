@@ -1,3 +1,28 @@
+# 🚀 compose-entity-2.0.0-beta.2
+
+## ✨ Compose Entity 2.0.0-beta.2 — A Major Leap Forward
+
+This is the **biggest update** since the library was created.
+
+### 🔥 What's New
+
+- 🪶 **Removed Hilt and Room** — now lighter, faster, and free from heavy dependencies for database work.  
+- 🗄 **Full control over the database** — you decide how to initialize and manage your DB.  
+- 🛡 **Less strict Entity-to-DB bindings** — no more unexpected errors when working with data.  
+- ⚡ **Significant performance boost** in:  
+  - ⚙️ app compilation  
+  - 📊 database queries  
+  - 📥 data retrieval  
+  - 🖌 form rendering  
+- 🎨 **Flexible form interfaces** — freely mix Compose Entity elements with fully custom UI in any way you like.  
+- 🛠 **Improved code generation** — fewer intermediate layers, more predictable behavior.  
+- 🧱 **Foundation for automatic migrations** — preparing for seamless DB structure updates in the future.  
+
+---
+
+## 🌐 [Create a Compose Entity Project&nbsp;↗](https://cetempl.homeclub.top/)
+
+
 # Version 1.0.29 - Added (01.08.2025)
 
 In @CeGenerator annotation:
