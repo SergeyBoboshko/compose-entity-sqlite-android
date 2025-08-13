@@ -15,4 +15,5 @@ With this online generator, you can create a **fully working Android Studio proj
 2. Download the generated ZIP file.  
 3. Unzip it and open the project in Android Studio.  
 
-You’ll have a complete **starter project** with SQLite + Compose Entity, ready for **instant development** — no manual setup, no boilerplate, just start coding!
+You’ll have a complete **starter project** with SQLite + Compose Entity, ready for **instant development** — no manual setup, no boilerplate, just start coding!  
+[Click this link or the caption for create](https://cetempl.homeclub.top/)
