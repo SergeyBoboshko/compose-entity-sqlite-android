@@ -1,4 +1,4 @@
-## 🚀 <a href="https://cetempl.homeclub.top/" target="_blank">Create a Compose Entity Project ↗️</a>
+## 🚀 <a href="https://cetempl.homeclub.top/" target="_blank">Create a Compose Entity 2 Project ↗️</a>
 
 
 No more starting **from scratch** in Android Studio when there’s no ready-made template for your app idea.  
