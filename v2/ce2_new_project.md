@@ -18,3 +18,5 @@ With this online generator, you can create a **fully working Android Studio proj
 
 You’ll have a complete **starter project** with SQLite + Compose Entity, ready for **instant development** — no manual setup, no boilerplate, just start coding!  
 <a href="https://cetempl.homeclub.top/" target="_blank">[Click this link or the caption for create]</a>
+
+[Video instruction see here -->](https://youtu.be/KY_wtlVK8BE)
