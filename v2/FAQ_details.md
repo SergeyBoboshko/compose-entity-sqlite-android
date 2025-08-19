@@ -43,4 +43,16 @@ In all other cases, for reliable behavior, prefer `class`.
 
 ---
 
+<details>
+<summary>❓ I created an entity but I don’t see the UI class for this entity</summary>
+
+Elements like ext class, DAO, repository, ViewModel, and UI for the entity are generated via KSP generation.  
+If you performed `clean` or `clean + make` but there were errors and `make` did not complete, these objects might have been removed.  
+Simply rebuild the project, and all objects will be restored.  
+To ensure these objects are generated and everything works smoothly, always rebuild the project after adding a new entity object
+
+</details>
+
+---
+
 📌 **More questions will be added to this FAQ as the project evolves.**
