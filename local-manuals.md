@@ -17,3 +17,6 @@
 - [ComposeEntity — Structure and Philosophy](/articles/composeentity-architecture-overview.md)
 
 ---
+## Other important and useful ##
+
+- [How thinking in Jetpack Compose](/articles/understanding_jetpack_compose_control_level.md)
