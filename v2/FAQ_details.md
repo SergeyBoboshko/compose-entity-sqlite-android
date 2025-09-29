@@ -54,5 +54,50 @@ To ensure these objects are generated and everything works smoothly, always rebu
 </details>
 
 ---
+<details>
+<summary>❓ Why should I explicitly declare the `conditions` field in a report entity, even if it’s already in the base class?</summary>
+
+**Reason:**  
+KSP processes only the properties **declared directly in the entity class**.  
+Inherited fields from base classes (like `conditions`, `groups`, or `resources`) are **not automatically detected** during code generation.  
+
+If you rely on inheritance and skip redeclaring `conditions`, the code generator will:
+- ❌ not include it in the table schema (`CREATE TABLE`),  
+- ❌ not handle it during migrations,  
+- ⚠️ cause inserted data to be ignored because the column does not exist.
+
+**Solution:**  
+Always explicitly declare the `conditions` field in every report entity, even if it’s inherited from `ReportEntity`.
+
+```kotlin
+// ❌ Avoid this
+data class ReportUtilityPaymentsFreeEntity(
+    override var id: Long,
+    override var name: String,
+    override var describe: String,
+    var addressId: Long,
+    var amount: Double
+) : ReportEntity(id, "addressId", "amount", name, describe)
+
+// ✅ Correct way
+data class ReportUtilityPaymentsFreeEntity(
+    override var id: Long,
+    override var name: String,
+    override var describe: String,
+    var addressId: Long,
+    var amount: Double,
+    // 👇 Explicitly redeclare the field
+    override var conditions: String = ""
+) : ReportEntity(id, "addressId", "amount", name, describe, conditions)
+When is redeclaration required?
+
+✅ When the field must exist in the database schema.
+
+✅ When the field participates in migrations or is saved via insert().
+
+🚫 You may skip it only if the field is not stored in the database and used purely in logic.
+
+</details> ```
+---
 
 📌 **More questions will be added to this FAQ as the project evolves.**
